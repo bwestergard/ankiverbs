@@ -1,0 +1,37 @@
+{
+  "name": "ankiverbs",
+  "version": "1.0.0",
+  "description": "Generate verb tables in Anki's import format.",
+  "main": "ankiverbs.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "ankiverbs": "ankiverbs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwestergard/ankiverbs.git"
+  },
+  "keywords": [
+    "anki",
+    "srs",
+    "ankisrs",
+    "german",
+    "verbs",
+    "flashcards"
+  ],
+  "author": "Björn Westergard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bwestergard/ankiverbs/issues"
+  },
+  "homepage": "https://github.com/bwestergard/ankiverbs#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "command-line-args": "^2.1.1",
+    "f-throttle": "^0.1.1",
+    "ramda": "^0.18.0",
+    "verbix": "0.0.3"
+  }
+}
